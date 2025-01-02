@@ -12,5 +12,5 @@ git clone https://github.com/donlelef/practical-ai-class.git
 Then, jump the the readmes of the lectures for further instructions.
 
 ## Lectures
-1. Introduction to AI (no code)
-2. [Problem Statement, Data, and Databases](databases/README.md)
+1. Introduction to AI (no code) [[slides]](theory/01%20-%20Introduction%20to%20AI.pdf)
+2. Problem Statement, Data, and Databases/README.md [[slides]](theory/02%20-%20Data%20&%20Problem%20Statement.pdf) [[code]](practice/databases/README.md)
