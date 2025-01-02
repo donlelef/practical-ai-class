@@ -1,0 +1,30 @@
+services:
+
+  db:
+    image: postgres
+    container_name: practical_ai_class_postgres
+    environment:
+      POSTGRES_USER: postgres  # pragma: allowlist secret
+      POSTGRES_PASSWORD: postgres  # pragma: allowlist secret
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  storage:
+    image: minio/minio
+    container_name: practical_ai_class_minio
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    command: server /data --console-address ':9001' --address ':9000'
+    environment:
+      MINIO_ROOT_USER: minioadmin  # pragma: allowlist secret
+      MINIO_ROOT_PASSWORD: minioadmin  # pragma: allowlist secret
+    volumes:
+      - storage_data:/data
+
+volumes:
+  db_data:
+  storage_data:
