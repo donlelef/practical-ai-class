@@ -3,7 +3,7 @@ This exercise will let you play with databases. In order to run this exercise on
 
 ## Installing Docker
 Download Docker Desktop from [Docker's official website](https://www.docker.com/).
-Than, follow the installation instructions provided on the website.
+Then, follow the installation instructions provided on the website.
 
 ## Running Docker Compose
 Open a terminal and run:
