@@ -15,3 +15,5 @@ Then, jump the the readmes of the lectures for further instructions.
 1. Introduction to AI (no code) [[slides]](theory/01%20-%20Introduction%20to%20AI.pdf)
 2. Problem Statement, Data, and Databases [[slides]](theory/02%20-%20Data%20&%20Problem%20Statement.pdf) [[code]](practice/databases/README.md)
 3. Data Exploration & Clearning [[slides]](theory/03%20-%20Data%20Exploration%20&%20Cleaning.pdf) [[code]](practice/data-exploration/README.md)
+4. Modelling [[slides]](theory/04%20-%20Modelling.pdf) [[code]](practice/modelling/README.md)
+
